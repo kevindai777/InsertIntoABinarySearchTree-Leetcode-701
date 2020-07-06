@@ -50,5 +50,4 @@ function insert(node, val) {
 
     return node
 }
-insert(tree.root, 5)
-console.log(tree.root)
+return insert(tree.root, 5)
